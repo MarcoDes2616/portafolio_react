@@ -22,15 +22,15 @@ const IconsSkills = () => {
 
     const getRandonReact = () => {
         setReactX(Math.ceil(Math.random() * 80))
-        setReactY(Math.ceil(Math.random() * 20))
+        setReactY(Math.ceil(Math.random() * 12))
     }
     const getRandonHtml = () => {
         setHtmlX(Math.ceil(Math.random() * 80))
-        setHtmlY(Math.ceil(Math.random() * 15 + 68))
+        setHtmlY(Math.ceil(Math.random() * 15 + 74))
     }
     const getRandonNode = () => {
         setNodeX(Math.ceil(Math.random() * 80))
-        setNodeY(Math.ceil(Math.random() * 20))
+        setNodeY(Math.ceil(Math.random() * 12))
     }
 
     return (

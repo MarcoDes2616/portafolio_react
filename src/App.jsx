@@ -4,9 +4,12 @@ import Background from "./components/Background";
 import IconsSkills from "./components/IconsSkills";
 import Menu from "./components/Menu";
 import mia from "./assets/img/poster.png"
+import { motion, useScroll } from "framer-motion";
+import Educacion from "./components/Educacion";
 
 const App = () => {
   const [menu, setMenu] = useState(false)
+  const { scrollYProgress } = useScroll();
 
   return (
     <div className="App">
@@ -18,16 +21,26 @@ const App = () => {
         <nav>
           <p>Marco Cardenas</p>
           <i onClick={() => setMenu(!menu)} className='bx bx-menu bx-md'></i>
+          <div className='wrapper'>
+            <motion.div className='progress'
+              style={{ scaleX: scrollYProgress }} />
+          </div>
         </nav>
         <IconsSkills />
-        <div className="wrapper_photo">
+        <div className={menu ? "wrapper_photo active" : "wrapper_photo"}>
           <div className='photo'>
             <img src={mia} alt="" />
           </div>
         </div>
-        <p className="description"><strong>Developer Full Stack | <br /> Management DataBase SQL</strong></p>
+        <p className={menu ? "description active" : "description"}><strong>Developer Full Stack | <br /> Management DataBase SQL</strong></p>
+        <div className={menu ? "redes active" : "redes"}>
+          <i className='bx bxl-linkedin bx-lg'></i>
+          <i className='bx bxl-github bx-lg'></i>
+        </div>
       </header>
-
+      <main>
+        <Educacion />
+      </main>
     </div>
   );
 }
