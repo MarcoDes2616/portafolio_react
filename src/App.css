@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&display=swap');
+
+:root{
+  --darkPrimaryC: #0288D1;
+  --ligthPrimaryC: #B3E5FC;
+  --primary: #03A9F4;
+  --text: #FFFFFF;
+  --pText: #212121;
+  --accentColor: #fca82a;
+  --secondaryText: #757575;
+  --divider: #BDBDBD;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button, a{
+  cursor: pointer;
+}
+body{
+  font-family: 'Rajdhani', sans-serif;
+  color: var(--pText);
+}
+.App{
+  width: 100%;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  padding-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: var(--text);
+  box-shadow: 0 20px 20px var(--ligthPrimaryC);
+}
+.icons_skills{
+  width: 100%;
+  height: calc(100vh - 3.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  animation: icons 5s infinite linear;
+}
+.icon img{
+  width: 90%;
+}
+@keyframes icons {
+  0%{
+    opacity: 0;
+    filter: none;
+  }
+  10%{
+    opacity: 0;
+    filter: none;
+  }
+  50%{
+    opacity: 1;
+    filter: drop-shadow( 0 0 10px var(--darkPrimaryC));
+  }
+  90%{
+    opacity: 0;
+    filter: none;
+  }
+  100%{
+    opacity: 0;
+    filter: none;
+  }
+}
+.menu{
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    border: 10px solid var(--ligthPrimaryC);
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-right: 320px solid var(--accentColor);
+    filter: drop-shadow(-20px 20px 20px var(--text));
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_photo{
+  width: 230px;
+  height: 260px;
+  border-radius: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, var(--text), var(--primary));
+  box-shadow: 10px 10px 14px 0px var(--divider);
+  position: relative;
+  z-index: 5;
+}
+.photo{
+  width: 220px;
+  height: 250px;
+  border-radius: 18%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, var(--text), var(--ligthPrimaryC));
+}
+.photo img{
+  width: 110%;
+}
