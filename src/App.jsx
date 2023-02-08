@@ -16,15 +16,16 @@ const App = () => {
       }
       <header>
         <nav>
-          <p>Developer FullStack</p>
+          <p>Marco Cardenas</p>
           <i onClick={() => setMenu(!menu)} className='bx bx-menu bx-md'></i>
         </nav>
         <IconsSkills />
         <div className="wrapper_photo">
-        <div className='photo'>
-          <img src={mia} alt="" />
+          <div className='photo'>
+            <img src={mia} alt="" />
+          </div>
         </div>
-        </div>
+        <p className="description"><strong>Developer Full Stack | <br /> Management DataBase SQL</strong></p>
       </header>
 
     </div>

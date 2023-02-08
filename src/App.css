@@ -31,8 +31,11 @@ header{
   height: 100vh;
   padding-top: 3.5rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  gap: 1.5rem ;
 }
 nav{
   width: 100%;
@@ -42,13 +45,13 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
-  color: var(--text);
+  color: var(--accentColor);
   box-shadow: 0 20px 20px var(--ligthPrimaryC);
 }
 .icons_skills{
@@ -84,7 +87,7 @@ nav{
   }
   50%{
     opacity: 1;
-    filter: drop-shadow( 0 0 10px var(--darkPrimaryC));
+    filter: drop-shadow( 10px 10px 10px var(--secondaryText));
   }
   90%{
     opacity: 0;
@@ -131,4 +134,9 @@ nav{
 }
 .photo img{
   width: 110%;
+}
+.description{
+  font-size: 1.5rem;
+  color: var(--accentColor);
+  filter: drop-shadow( 8px 8px 8px var(--secondaryText));
 }

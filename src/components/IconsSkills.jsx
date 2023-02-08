@@ -26,7 +26,7 @@ const IconsSkills = () => {
     }
     const getRandonHtml = () => {
         setHtmlX(Math.ceil(Math.random() * 80))
-        setHtmlY(Math.ceil(Math.random() * 20 + 60))
+        setHtmlY(Math.ceil(Math.random() * 15 + 68))
     }
     const getRandonNode = () => {
         setNodeX(Math.ceil(Math.random() * 80))
