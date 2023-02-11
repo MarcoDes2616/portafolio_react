@@ -22,13 +22,14 @@ button, a{
 body{
   font-family: 'Rajdhani', sans-serif;
   color: var(--pText);
+  color: #a96704;
 }
 .App{
   width: 100%;
 }
 header{
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -51,7 +52,7 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 6;
   color: var(--accentColor);
   box-shadow: 0 20px 20px var(--ligthPrimaryC);
 }
@@ -60,10 +61,43 @@ nav{
   width: 100%;
   bottom: 2px;
   left: 0;
+  background-color: var(--ligthPrimaryC);
 }
 .progress{
   height: 2px;
   background-color: var(--accentColor);
+}
+.contain_present_about{
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.presentacion{
+  width: 100%;
+  max-width: 550px;
+  height: calc(100vh - 3.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about_me{
+  width: 100%;
+  max-width: 500px;
+  height: calc(100vh - 3.5rem);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  background-color: var(--divider);
+  opacity: .8;
 }
 .icons_skills{
   width: 100%;
@@ -229,4 +263,18 @@ nav{
 }
 .redes.active{
   margin-left: -86px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 0;
+  border: 1px solid black;
+}
+
+
+@media screen and (min-width: 900px) {
+  header{
+    /* height: 100vh; */
+  }
 }

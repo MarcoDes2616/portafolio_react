@@ -12,11 +12,12 @@ const IconsSkills = () => {
     const [nodeY, setNodeY] = useState()
 
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             getRandonReact()
             getRandonHtml()
             getRandonNode()
         }, 5000)
+        return () => clearInterval(interval)
     }, [])
     
 

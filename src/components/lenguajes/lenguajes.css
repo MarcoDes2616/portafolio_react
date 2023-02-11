@@ -1,0 +1,10 @@
+.lenguajes{
+    width: 100%;
+    height: 400px;
+    padding: 2rem;
+    background-color: var(--ligthPrimaryC);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 10px var(--divider);
+}

@@ -1,0 +1,44 @@
+:root{
+    --darkPrimaryC: #0288D1;
+    --ligthPrimaryC: #B3E5FC;
+    --primary: #03A9F4;
+    --text: #FFFFFF;
+    --pText: #212121;
+    --accentColor: #fca82a;
+    --secondaryText: #757575;
+    --divider: #BDBDBD;
+  }
+
+.educacion{
+    padding: 2rem 0;
+    width: 95%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--pText);
+    color: var(--text);
+    border-radius: 0 20px 20px 0;
+    box-shadow: 6px 6px 8px var(--primary);
+}
+.academias_container{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.academias{
+    width: 250px;
+    height: 200px;
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.academias img{
+    max-width: 90%;
+    max-height: 90%;
+}

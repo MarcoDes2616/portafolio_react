@@ -15,7 +15,7 @@ const Background = () => {
                     fpsLimit: 60,
                     particles: {
                         color: {
-                            value: "#03FAE5",
+                            value: "#a96704",
                             animation: {
                                 enable: true,
                                 speed: 10
@@ -52,8 +52,8 @@ const Background = () => {
                             speed: 3,
                             straight: false,
                             trail: {
-                                fillColor: "#fff",
-                                length: 20,
+                                fillColor: "#000000",
+                                length: 40,
                                 enable: true
                             }
                         },
