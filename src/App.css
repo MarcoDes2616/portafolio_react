@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&display=swap');
 
 :root{
-  --darkPrimaryC: #0288D1;
+  --darkPrimaryC: #455A64;
   --ligthPrimaryC: #B3E5FC;
   --primary: #03A9F4;
   --text: #FFFFFF;
   --pText: #212121;
-  --accentColor: #fca82a;
+  --accentColor: #FFC107;
   --secondaryText: #757575;
   --divider: #BDBDBD;
 }
@@ -22,7 +22,7 @@ button, a{
 body{
   font-family: 'Rajdhani', sans-serif;
   color: var(--pText);
-  color: #a96704;
+  /* color: #a96704; */
 }
 .App{
   width: 100%;
@@ -55,6 +55,7 @@ nav{
   z-index: 6;
   color: var(--accentColor);
   box-shadow: 0 20px 20px var(--ligthPrimaryC);
+  mix-blend-mode: soft-light;
 }
 .wrapper{
   position: absolute;
