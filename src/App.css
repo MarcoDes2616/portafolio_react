@@ -180,7 +180,7 @@ nav {
   justify-content: center;
   padding: 2rem;
   gap: 3rem;
-  background: url(./assets/img/fondo.png), linear-gradient(70deg, black 50%, #191919);
+  background: linear-gradient(70deg, black 50%, #191919);
   background-size: cover;
   position: absolute;
   bottom: -28.5rem;
