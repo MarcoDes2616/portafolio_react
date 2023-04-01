@@ -3,7 +3,7 @@
 :root {
   --darkPrimaryC: #455A64;
   --ligthPrimaryC: #B3E5FC;
-  --primary: #e4f4fc;
+  --primary: #03a8f4;
   --text: #FFFFFF;
   --pText: #212121;
   --accentColor: #FFC107;
@@ -68,7 +68,7 @@ nav {
   width: 100%;
   bottom: 2px;
   left: 0;
-  background-color: var(--primary);
+  background-color: var(--ligthPrimaryC);
 }
 
 .progress {
@@ -86,10 +86,10 @@ nav {
   gap: 2rem;
   border-radius: 15px;
   margin-top: 4rem;
-  box-shadow: 10px 10px 20px rgba(3, 168, 244, 0.1);
+  box-shadow: 5px 5px 5px hsla(199, 92%, 85%, 0.1);
   background-color: rgba(255, 255, 255, 0.01);
-  border-left: 1px solid rgba(3, 168, 244, 0.5);
-  border-top: 1px solid rgba(3, 168, 244, 0.5);
+  border-left: 1px solid hsla(199, 92%, 85%, 0.3);
+  border-top: 1px solid hsla(199, 92%, 85%, 0.3);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   position: relative;
@@ -110,8 +110,8 @@ nav {
   height: 250px;
   border-radius: 18%;
   overflow: hidden;
-  border-left: 1px solid rgba(3, 168, 244, 0.5);
-  border-top: 1px solid rgba(3, 168, 244, 0.5);
+  border-left: 1px solid hsla(199, 92%, 85%, 0.3);
+  border-top: 1px solid hsla(199, 92%, 85%, 0.3);
   transition: all .3s;
 }
 
@@ -187,7 +187,7 @@ nav {
 }
 .about_me p{
   font-size: 1.2rem;
-  color: var(--accentColor);
+  color: var(--ligthPrimaryC);
   filter: drop-shadow(1px 1px 0 var(--pText));
 }
 
@@ -257,7 +257,7 @@ main {
   .about_me{
     bottom: -22rem;
     border-radius: 15px;
-    box-shadow: 0 0 10px var(--primary);
+    box-shadow: 0 0 10px hsla(199, 92%, 85%, 0.3);
   }
   .contain_present_about{
     margin-bottom: 24rem;
