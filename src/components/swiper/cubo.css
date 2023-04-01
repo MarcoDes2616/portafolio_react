@@ -1,6 +1,6 @@
 .cubo {
   width: 100%;
-  max-width: 500px;
+  max-width: 430px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   /* background: linear-gradient(36deg, var(--primary), var(--accentColor));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--accentColor);
 }
 

@@ -5,9 +5,9 @@ import IconsSkills from "./components/IconsSkills";
 import Menu from "./components/Menu";
 import mia from "./assets/img/poster.png"
 import { motion, useScroll } from "framer-motion";
-import Educacion from "./components/educacion/Educacion";
 import Lenguajes from "./components/lenguajes/Lenguajes";
 import Cubo from "./components/swiper/Cubo";
+import VelocityScroll from "./components/framer/VelocityScroll";
 
 const App = () => {
   const [menu, setMenu] = useState(false)
@@ -18,7 +18,7 @@ const App = () => {
     "Disciplina y Responsabilidad...", "Discipline and Responsibility..."]
 
   useEffect(() => {
-    scrollTo(0,0)
+    scrollTo(0, 0)
     const interval = setInterval(() => {
       setIndex(currentValue => {
         if (currentValue + 1 === frases.length) {
@@ -63,7 +63,11 @@ const App = () => {
         </div>
       </header>
       <main>
-          {/* <div className="about_me">
+        <section className="velocity_scroll">
+          <VelocityScroll baseVelocity={-5}>Framer Motion</VelocityScroll>
+          <VelocityScroll baseVelocity={5}>Scroll velocity</VelocityScroll>
+        </section>
+        {/* <div className="about_me">
             <p>Siento pasión por el crecimiento personal y profesional!. Es por ello que el desempeño de mis labores lo realizo con la mejor disposición para lograr un FeedBack que constribuya a esa pasión. Poseo conocimientos en lenguajes y tecnologías en el ambito del Desarrollo Web, las cuales estaré a gusto de aportar junto a mis habilidades blandas, para lograr los objetivos corporativos, del equipo, y los personales... ¡estoy listo para ser parte de tu empresa!...</p>
           </div> */}
         {/* <Educacion /> */}

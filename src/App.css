@@ -94,7 +94,7 @@ nav {
 
 .presentacion {
   width: 100%;
-  max-width: 500px;
+  max-width: 430px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,8 +106,10 @@ nav {
   height: 250px;
   border-radius: 18%;
   overflow: hidden;
-  border-left: 2px solid hsla(199, 92%, 85%, 0.3);
-  border-top: 2px solid hsla(199, 92%, 85%, 0.3);
+  border-left: 3px solid hsla(199, 92%, 85%, 0.3);
+  border-top: 3px solid hsla(199, 92%, 85%, 0.3);
+  border-right: 1px solid hsla(199, 92%, 85%, 0.3);
+  border-bottom: 1px solid hsla(199, 92%, 85%, 0.3);
   transition: all .3s;
 }
 
@@ -153,7 +155,7 @@ nav {
   font-style: italic;
   background-clip: text;
   font-weight: 700;
-  background: linear-gradient(36deg, var(--primary), var(--accentColor));
+  background: linear-gradient(36deg, var(--ligthPrimaryC), var(--accentColor));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
@@ -260,6 +262,12 @@ main {
 }
 
 
+@media screen and (min-width: 400px) {
+  .contain_present_about{
+    padding-top: 10vh;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .about_me{
     bottom: -22rem;
@@ -279,10 +287,11 @@ main {
     height: 50vh;
   }
   .contain_present_about{
-    padding: 2rem 0;
+    padding: 2rem 0 3rem 0;
     align-items: center;
   }
   .frases{
     bottom: 1rem;
+    font-size: 2rem;
   }
 }
