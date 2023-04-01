@@ -78,7 +78,7 @@ nav {
 .contain_present_about {
   width: 100%;
   max-width: 1100px;
-  min-height: calc(100vh - 8rem);
+  height: calc(100vh - 8rem);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -89,6 +89,7 @@ nav {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   position: relative;
+  padding-top: 15vh;
 }
 
 .presentacion {
