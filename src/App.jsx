@@ -7,6 +7,7 @@ import mia from "./assets/img/poster.png"
 import { motion, useScroll } from "framer-motion";
 import Educacion from "./components/educacion/Educacion";
 import Lenguajes from "./components/lenguajes/Lenguajes";
+import Header from "./header/Header";
 
 const App = () => {
   const [menu, setMenu] = useState(false)
@@ -17,6 +18,7 @@ const App = () => {
     "Disciplina y Responsabilidad..."]
 
   useEffect(() => {
+    scrollTo(0,0)
     const interval = setInterval(() => {
       setIndex(currentValue => {
         if (currentValue + 1 === frases.length) {
@@ -44,6 +46,7 @@ const App = () => {
               style={{ scaleX: scrollYProgress }} />
           </div>
         </nav>
+        {/* <Header /> */}
         {/* <IconsSkills /> */}
         <div className="contain_present_about">
           <div className="presentacion">
@@ -63,8 +66,8 @@ const App = () => {
         </div>
       </header>
       <main>
-        <Educacion />
-        <Lenguajes />
+        {/* <Educacion /> */}
+        {/* <Lenguajes /> */}
       </main>
     </div>
   );

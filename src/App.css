@@ -2,14 +2,15 @@
 
 :root {
   --darkPrimaryC: #455A64;
-  --ligthPrimaryC: #B3E5FC;
-  --primary: #03a8f4;
+  --ligthPrimaryC: #CFD8DC;
+  --primary: #607D8B;
   --text: #FFFFFF;
   --pText: #212121;
-  --accentColor: #FFC107;
+  --accentColor: #FFEB3B;
   --secondaryText: #757575;
   --divider: #BDBDBD;
 }
+
 
 * {
   padding: 0;
@@ -35,20 +36,20 @@ body {
 header {
   width: 100%;
   min-height: 100vh;
-  padding-top: 2rem;
+  padding-top: 4.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
-  gap: 1.5rem;
+  position: relative;
 }
 
 nav {
   width: 100%;
   height: 3.5rem;
   background-color: rgba(255, 255, 255, 0.02);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +61,6 @@ nav {
   left: 0;
   z-index: 6;
   color: var(--accentColor);
-  box-shadow: 0px 10px 20px rgba(3, 168, 244, 0.1);
 }
 
 .wrapper {
@@ -85,11 +85,9 @@ nav {
   justify-content: center;
   gap: 2rem;
   border-radius: 15px;
-  margin-top: 4rem;
-  box-shadow: 5px 5px 5px hsla(199, 92%, 85%, 0.1);
-  background-color: rgba(255, 255, 255, 0.02);
-  border-left: 1px solid hsla(199, 92%, 85%, 0.3);
-  border-top: 1px solid hsla(199, 92%, 85%, 0.3);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   position: relative;

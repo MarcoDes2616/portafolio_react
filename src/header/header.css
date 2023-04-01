@@ -1,0 +1,31 @@
+.trapecio {
+    width: 95%;
+    max-width: 1200px;
+    height: 50px;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    border-bottom: 60px solid #607D8B;
+}
+.cuadrado{
+    width: 95%;
+    max-width: 1200px;
+    height: 40vh;
+    background-color: var(--primary);
+    margin-top: -1px;
+}
+.cuadrado2{
+    margin-top: 5rem;
+    width: 95%;
+    max-width: 1200px;
+    height: 10vh;
+    background-color: var(--primary);
+}
+.trapecio2 {
+    width: 95%;
+    max-width: 1200px;
+    height: 50px;
+    margin-top: -1px;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    border-top: 60px solid #607D8B;
+}

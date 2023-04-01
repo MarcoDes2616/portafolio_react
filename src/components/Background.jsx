@@ -15,7 +15,7 @@ const Background = () => {
                     fpsLimit: 60,
                     particles: {
                         color: {
-                            value: "#00ffff",
+                            value: "#FFEB3B",
                             animation: {
                                 enable: true,
                                 speed: 10
@@ -52,7 +52,7 @@ const Background = () => {
                             speed: 3,
                             straight: false,
                             trail: {
-                                fillColor: "#000",
+                                fillColor: "#455A64",
                                 length: 20,
                                 enable: true
                             }
@@ -75,7 +75,7 @@ const Background = () => {
                         }
                     },
                     background: {
-                        color: "#000"
+                        color: "#fff"
                     },
                     fullScreen: {
                         zIndex: -1
