@@ -32,7 +32,6 @@
 .academias{
     width: 250px;
     height: 200px;
-    border: 1px solid salmon;
     display: flex;
     flex-direction: column;
     align-items: center;

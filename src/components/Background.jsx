@@ -15,7 +15,7 @@ const Background = () => {
                     fpsLimit: 60,
                     particles: {
                         color: {
-                            value: "#FF0000",
+                            value: "#00ffff",
                             animation: {
                                 enable: true,
                                 speed: 10
