@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;1,200;1,400&display=swap');
 
 :root {
   --darkPrimaryC: #455A64;
@@ -24,7 +24,7 @@ a,
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   color: var(--pText);
 }
 
@@ -142,16 +142,18 @@ nav {
 }
 .redes:hover .bx{
   color: var(--accentColor);
+  filter: drop-shadow(0 0 10px var(--primary));
 }
 
 .description {
   font-size: 1.5rem;
   color: var(--accentColor);
   transition: margin-left 1s;
+  letter-spacing: 1.5px;
 }
 
 .frases {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-style: italic;
   background-clip: text;
   font-weight: 700;
@@ -197,6 +199,7 @@ nav {
   font-size: 1.1rem;
   color: var(--ligthPrimaryC);
   filter: drop-shadow(1px 1px 0 var(--pText));
+  line-height: 1.5rem;
 }
 
 .icons_skills {
@@ -268,7 +271,7 @@ main {
     transition: all .5s;
   }
   .about_me:hover{
-    box-shadow: 0 0 5px 10px var(--accentColor);
+    box-shadow: 0 0 5px 5px var(--accentColor);
   }
   .contain_present_about{
     margin-bottom: 24rem;
