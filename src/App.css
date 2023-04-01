@@ -106,8 +106,8 @@ nav {
   height: 250px;
   border-radius: 18%;
   overflow: hidden;
-  border-left: 1px solid hsla(199, 92%, 85%, 0.3);
-  border-top: 1px solid hsla(199, 92%, 85%, 0.3);
+  border-left: 2px solid hsla(199, 92%, 85%, 0.3);
+  border-top: 2px solid hsla(199, 92%, 85%, 0.3);
   transition: all .3s;
 }
 
@@ -269,9 +269,6 @@ main {
   .about_me:hover{
     box-shadow: 0 0 5px 5px var(--accentColor);
   }
-  .contain_present_about{
-    margin-bottom: 24rem;
-  }
 }
 
 
@@ -282,10 +279,8 @@ main {
     height: 50vh;
   }
   .contain_present_about{
-    height: inherit;
     padding: 2rem 0;
     align-items: center;
-    margin: 2.5rem 0 0 0;
   }
   .frases{
     bottom: 1rem;

@@ -68,9 +68,12 @@
   border-radius: 10px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
   .swiper {
     width: 200px;
     height: 200px;
+  }
+  .cubo{
+    margin-top: 0;
   }
 }
