@@ -1,0 +1,64 @@
+.cubo{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cubo h2{
+  /* background: linear-gradient(36deg, var(--primary), var(--accentColor));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 2rem;
+  color: var(--accentColor);
+}
+
+.left_gif{
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    left: 230px;
+    bottom: -4rem;
+    transition: all .3s;
+}
+
+.cubo:hover .left_gif{
+    opacity: 0;
+}
+.swiper {
+    width: 200px;
+    height: 200px;
+    rotate: 5deg;
+    animation: cubo 3s infinite linear;
+    transition: all .3s;
+  }
+
+  .cubo:hover .swiper{
+    scale: 1.05;
+}
+
+  @keyframes cubo {
+    0%{
+      translate: 0;
+    }
+    50%{
+      translate: 5px 5px;
+    }
+    100%{
+      translate: 0;
+    }
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+  }
