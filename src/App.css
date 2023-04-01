@@ -79,7 +79,7 @@ nav {
 .contain_present_about {
   width: 100%;
   max-width: 1200px;
-  min-height: calc(100vh - 9rem);
+  min-height: calc(100vh - 10rem);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
