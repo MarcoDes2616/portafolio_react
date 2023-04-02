@@ -236,7 +236,7 @@ main h2{
 .about_me p{
   width: 100%;
   max-width: 450px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--pText);
   filter: drop-shadow(1px 1px 0 var(--ligthPrimaryC));
   line-height: 1.5rem;
