@@ -178,26 +178,70 @@ nav {
   }
 }
 
-.about_me {
-  width: 100%;
-  max-width: 500px;
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  gap: 3rem;
-  background: linear-gradient(70deg, black 50%, #191919);
-  background-size: cover;
-  position: absolute;
-  bottom: -28.5rem;
+  margin-top: 350px;
 }
 
+main h2{
+  font-size: 2rem;
+  font-style: italic;
+  background-clip: text;
+  font-weight: 700;
+  background: linear-gradient(36deg, var(--ligthPrimaryC), var(--accentColor));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.about_me {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05) 37%, var(--accentColor) 38%);
+}
+
+.aboutme_img{
+  width: 100%;
+  max-width: 500px;
+  height: 55vw;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 15px;
+  border-left: 3px solid hsla(199, 92%, 85%, 0.3);
+  border-top: 3px solid hsla(199, 92%, 85%, 0.3);
+  border-right: 1px solid hsla(199, 92%, 85%, 0.3);
+  border-bottom: 1px solid hsla(199, 92%, 85%, 0.3);
+}
+.aboutme_img img{
+  width: 110%;
+  object-fit: cover;
+  transition: all .5s;
+}
+.about_me:hover .aboutme_img img{
+  scale: 1.05;
+}
 .about_me p{
+  width: 100%;
+  max-width: 450px;
   font-size: 1.1rem;
-  color: var(--ligthPrimaryC);
-  filter: drop-shadow(1px 1px 0 var(--pText));
+  color: var(--pText);
+  filter: drop-shadow(1px 1px 0 var(--ligthPrimaryC));
   line-height: 1.5rem;
+  text-align: center;
+  font-style: italic;
 }
 
 .icons_skills {
@@ -250,12 +294,6 @@ nav {
 
 
 
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  padding: 4rem 0;
-}
 
 .icon {
   color: #46c1fa;
@@ -270,21 +308,29 @@ main {
 
 @media screen and (min-width: 700px) {
   .about_me{
-    bottom: -22rem;
-    border-radius: 15px;
     transition: all .5s;
-  }
-  .about_me:hover{
-    box-shadow: 0 0 5px 5px var(--accentColor);
   }
 }
 
 
 @media screen and (min-width: 900px) {
+  main{
+    margin-top: 2rem;
+  }
+  main h2{
+    font-size: 2.5rem;
+  }
   .about_me{
     position: relative;
-    bottom: 0;
-    height: 50vh;
+    margin-top: 0px;
+    height: 450px;
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.05) 50%, var(--accentColor) 51%);
+  }
+  .aboutme_img{
+    align-self: flex-start;
+  }
+  .about_me p{
+    align-self: flex-end;
   }
   .contain_present_about{
     padding: 2rem 0 3rem 0;

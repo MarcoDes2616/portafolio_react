@@ -4,6 +4,7 @@ import Background from "./components/Background";
 import IconsSkills from "./components/IconsSkills";
 import Menu from "./components/Menu";
 import mia from "./assets/img/poster.png"
+import mia2 from "./assets/img/poster2.jpg"
 import { motion, useScroll } from "framer-motion";
 import Lenguajes from "./components/lenguajes/Lenguajes";
 import Cubo from "./components/swiper/Cubo";
@@ -46,7 +47,6 @@ const App = () => {
               style={{ scaleX: scrollYProgress }} />
           </div>
         </nav>
-        {/* <IconsSkills /> */}
         <div className="contain_present_about">
           <div className="presentacion">
             <div className='photo'>
@@ -63,13 +63,17 @@ const App = () => {
         </div>
       </header>
       <main>
-        <section className="velocity_scroll">
+        <h2>Acerca de mi...</h2>
+        <div className="about_me">
+          <div className="aboutme_img">
+            <img src={mia2} alt="" />
+          </div>
+          <p>Siento pasión por el crecimiento personal y profesional!. Es por ello que el desempeño de mis labores lo realizo con la mejor disposición para lograr un FeedBack que constribuya a esa pasión. Poseo conocimientos en lenguajes y tecnologías en el ambito del Desarrollo Web, las cuales estaré a gusto de aportar junto a mis habilidades blandas, para lograr los objetivos corporativos, del equipo, y los personales... ¡estoy listo para ser parte de tu empresa!...</p>
+        </div>
+        {/* <section className="velocity_scroll">
           <VelocityScroll baseVelocity={-5}>Framer Motion</VelocityScroll>
           <VelocityScroll baseVelocity={5}>Scroll velocity</VelocityScroll>
-        </section>
-        {/* <div className="about_me">
-            <p>Siento pasión por el crecimiento personal y profesional!. Es por ello que el desempeño de mis labores lo realizo con la mejor disposición para lograr un FeedBack que constribuya a esa pasión. Poseo conocimientos en lenguajes y tecnologías en el ambito del Desarrollo Web, las cuales estaré a gusto de aportar junto a mis habilidades blandas, para lograr los objetivos corporativos, del equipo, y los personales... ¡estoy listo para ser parte de tu empresa!...</p>
-          </div> */}
+        </section> */}
         {/* <Educacion /> */}
         {/* <Lenguajes /> */}
       </main>
