@@ -18,9 +18,7 @@
   box-sizing: border-box;
 }
 
-button,
-a,
-.btn {
+button, a, .btn {
   cursor: pointer;
 }
 
@@ -83,7 +81,9 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background: url(./assets/img/fondo1.png), rgba(255, 255, 255, 0.05);
+  background-position: center;
+  background-size: 100vw;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(3px);
@@ -289,6 +289,9 @@ main {
   .contain_present_about{
     padding: 2rem 0 3rem 0;
     align-items: center;
+    background: url(./assets/img/fondo.png), rgba(255, 255, 255, 0.05);
+    background-position: 100% 100%;
+  background-size: 100vw;
   }
   .frases{
     bottom: 1rem;
