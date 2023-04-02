@@ -1,4 +1,3 @@
-// import "./styles.css";
 import { useRef } from "react";
 import {
     motion,
@@ -12,7 +11,6 @@ import {
 import { wrap } from "@motionone/utils";
 
 const VelocityScroll = ({baseVelocity = 100, children}) => {
-    // const baseVelocity = 100
     const baseX = useMotionValue(0);
     const { scrollY } = useScroll();
     const scrollVelocity = useVelocity(scrollY);
@@ -23,7 +21,9 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
     const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
         clamp: false
     });
-
+    // FRONT: HTML-CSS-JAVASCRIPT-REACT-NEXT-JQUERY
+    // BACKEND: NODE-EXPRESS-JAVA-SPRING-POSTGRES-MYSQL-MONGODB-FIREBASE
+    // TECNOLOGÍAS: GIT-GITHUB-POWER BI-
   
     const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
 
@@ -45,10 +45,10 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
     return (
         <div className="parallax">
             <motion.div className="scroller" style={{ x }}>
-                <span>{children} </span>
-                <span>{children} </span>
-                <span>{children} </span>
-                <span>{children} </span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
             </motion.div>
         </div>
     );

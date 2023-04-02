@@ -1,15 +1,14 @@
 import React from 'react';
 import "./lenguajes.css"
-import Background from '../Background';
+import VelocityScroll from './VelocityScroll';
 
 const Lenguajes = () => {
     return (
         <div className='lenguajes'>
-            
-            <h2>Lenguajes:</h2>
-            <div className='lenguajes_container'>
-
-            </div>
+                <section className="velocity_scroll">
+                    <VelocityScroll baseVelocity={-5}>Framer Motion</VelocityScroll>
+                    <VelocityScroll baseVelocity={5}>Scroll velocity</VelocityScroll>
+                </section>
         </div>
     );
 };

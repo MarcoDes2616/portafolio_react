@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Background from "./components/Background";
-import IconsSkills from "./components/IconsSkills";
 import Menu from "./components/Menu";
 import mia from "./assets/img/poster.png"
 import mia2 from "./assets/img/poster2.jpg"
 import { motion, useScroll } from "framer-motion";
 import Lenguajes from "./components/lenguajes/Lenguajes";
 import Cubo from "./components/swiper/Cubo";
-import VelocityScroll from "./components/framer/VelocityScroll";
 
 const App = () => {
   const [menu, setMenu] = useState(false)
@@ -72,12 +70,9 @@ const App = () => {
           <hr />
           <strong>¡estoy listo para ser parte de tu empresa!...</strong></p>
         </div>
-        {/* <section className="velocity_scroll">
-          <VelocityScroll baseVelocity={-5}>Framer Motion</VelocityScroll>
-          <VelocityScroll baseVelocity={5}>Scroll velocity</VelocityScroll>
-        </section> */}
-        {/* <Educacion /> */}
-        {/* <Lenguajes /> */}
+        <br /><br /><br /><br /><br />
+        <h2>Habilidades IT...</h2>
+        <Lenguajes />
       </main>
     </div>
   );
