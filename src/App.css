@@ -89,7 +89,7 @@ nav {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   position: relative;
-  padding-top: 18vh;
+  padding-top: 20vh;
 }
 
 .presentacion {
@@ -291,7 +291,7 @@ main {
     align-items: center;
     background: url(./assets/img/fondo.png), rgba(255, 255, 255, 0.05);
     background-position: 100% 100%;
-  background-size: 100vw;
+    background-size: 100vw;
   }
   .frases{
     bottom: 1rem;
