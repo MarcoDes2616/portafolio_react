@@ -15,7 +15,7 @@ import alura from "../../assets/img/alura.png"
 import left from "../../assets/img/left.gif"
 
 // import required modules
-import { EffectCube, Pagination } from "swiper";
+import { Autoplay, EffectCube, Pagination } from "swiper";
 
 export default function Cubo() {
     return (
@@ -31,8 +31,12 @@ export default function Cubo() {
                     shadowOffset: 20,
                     shadowScale: 0.94,
                 }}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 pagination={true}
-                modules={[EffectCube, Pagination]}
+                modules={[EffectCube, Pagination, Autoplay]}
                 className="mySwiper"
             >
                 <SwiperSlide>
