@@ -68,7 +68,9 @@ const App = () => {
           <div className="aboutme_img">
             <img src={mia2} alt="" />
           </div>
-          <p><i className='bx bxs-quote-left bx-flashing bx-md' >...</i> <br /> Siento pasión por mi crecimiento personal y profesional!. El desempeño de mis labores lo realizo con la mejor disposición de colaboración para lograr así el ambiente deseado y un FeedBack que constribuya fielmente a esa pasión. Poseo conocimientos y habilidades en lenguajes y tecnologías vanguardistas en el ambito del Desarrollo Web FullStack, las cuales estaré a gusto de aportar junto a mis habilidades blandas, para lograr los objetivos corporativos, del equipo, y los personales... <br /><strong>¡estoy listo para ser parte de tu empresa!...</strong></p>
+          <p><i className='bx bxs-quote-left bx-flashing bx-md' >...</i> <br /> Siento pasión por mi crecimiento personal y profesional!. El desempeño de mis labores lo realizo con la mejor disposición de colaboración para lograr así el ambiente deseado y un FeedBack que constribuya fielmente a esa pasión. Poseo conocimientos y habilidades en lenguajes y tecnologías vanguardistas en el ambito del Desarrollo Web FullStack, las cuales estaré a gusto de aportar junto a mis habilidades blandas, para lograr los objetivos corporativos, del equipo, y los personales... <br /><br />
+          <hr />
+          <strong>¡estoy listo para ser parte de tu empresa!...</strong></p>
         </div>
         {/* <section className="velocity_scroll">
           <VelocityScroll baseVelocity={-5}>Framer Motion</VelocityScroll>
