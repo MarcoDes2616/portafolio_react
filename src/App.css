@@ -89,7 +89,7 @@ nav {
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   position: relative;
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 
 .presentacion {
