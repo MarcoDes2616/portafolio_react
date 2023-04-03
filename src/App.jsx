@@ -95,14 +95,20 @@ const App = () => {
       </main>
       <footer>
         <div className="redes">
+          <a href="https://wa.me/message/LFJWYV43FYKZG1" target="_blank">
+            <i className='bx bxs-phone-call bx-lg' ></i>
+          </a>
           <a href="https://www.linkedin.com/in/marco-cardenas-dj/" target="_blank">
             <i className='bx bxl-linkedin bx-lg'></i>
           </a>
           <a href="https://github.com/MarcoDes2616" target="_blank">
             <i className='bx bxl-github bx-lg'></i>
           </a>
+          <a href="mailto:marco2616@gmail.com" target="_blank">
+            <i className='bx bxl-gmail bx-lg'></i>
+          </a>
         </div>
-        
+
       </footer>
     </div>
   );

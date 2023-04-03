@@ -43,16 +43,15 @@ const Contacto = () => {
                         <input type="email" id='email' placeholder="E-mail"{...register('email')} />
                     </div>
                     <div className="input_container">
-                        <label htmlFor="phone">Teléfono</label>
+                        <label htmlFor="phone">Teléfono (incluir codigo País)</label>
                         <input type="text" id='phone' placeholder="Teléfono" {...register('phone')} />
                     </div>
                     <div className="input_container">
-                        <label htmlFor="company">Empresa o Institución que represneta</label>
+                        <label htmlFor="company">Empresa o Institución que representa</label>
                         <input type="text" id='company' placeholder="Empresa o compañia" {...register('company')} />
                     </div>
                     <button className='submit_btn'>
                         Send
-                        <i className="fa-solid fa-arrow-right"></i>
                     </button>
                     <hr />
                     <p>Gracias por contactarme!</p>

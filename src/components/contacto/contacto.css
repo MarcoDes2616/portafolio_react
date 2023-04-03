@@ -45,6 +45,11 @@ form button{
     border-radius: 10px 0 10px 0;
     border: none;
     box-shadow: 0 0 3px var(--pText);
+    transition: all .5s;
+}
+.submit_btn:hover{
+    background: var(--pText);
+    color: var(--accentColor);
 }
 form hr{
     border: none;

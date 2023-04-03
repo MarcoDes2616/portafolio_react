@@ -177,7 +177,7 @@ nav {
 }
 
 .redes {
-  width: 110px;
+  /* width: 110px; */
   display: flex;
   justify-content: space-between;
   transition: margin-left 1s;
@@ -187,6 +187,7 @@ nav {
   transition: all .5s;
   color: var(--darkPrimaryC);
   filter: drop-shadow(0 0 2px var(--accentColor));
+  margin: 0 .5rem;
 }
 .redes:hover a{
   color: var(--accentColor);
