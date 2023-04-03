@@ -25,7 +25,7 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
     // BACKEND: NODE-EXPRESS-JAVA-SPRING-POSTGRES-MYSQL-MONGODB-FIREBASE
     // TECNOLOGÍAS: GIT-GITHUB-POWER BI-
   
-    const x = useTransform(baseX, (v) => `${wrap(-20, 100, v)}%`);
+    const x = useTransform(baseX, (v) => `${wrap(-20, 50, v)}%`);
 
     const directionFactor = useRef(1);
     useAnimationFrame((t, delta) => {
