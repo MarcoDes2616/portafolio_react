@@ -23,7 +23,7 @@ const Lenguajes = () => {
     return (
         <div className='lenguajes'>
                 <section className="velocity_scroll">
-                    <VelocityScroll baseVelocity={-3}>
+                    <VelocityScroll baseVelocity={-4}>
                         <img src={html} alt="" />
                         <img src={css} alt="" />
                         <img src={js} alt="" />
@@ -31,15 +31,13 @@ const Lenguajes = () => {
                         <img src={next} alt="" />
                         <img src={jquery} alt="" />
                     </VelocityScroll>
-                    <VelocityScroll baseVelocity={3}>
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                    <VelocityScroll baseVelocity={4}>
+                        <img src={node} alt="" />
+                        <img src={java} alt="" />
+                        <img src={postgres} alt="" />
+                        <img src={mysql} alt="" />
+                        <img src={mongo} alt="" />
+                        <img src={firebase} alt="" />
                     </VelocityScroll>
                 </section>
         </div>

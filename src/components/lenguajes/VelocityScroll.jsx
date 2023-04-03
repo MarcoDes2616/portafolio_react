@@ -46,6 +46,7 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
         <div className="parallax">
             <motion.div className="scroller" style={{ x }}>
                 <span>{children}</span>
+                <span>{children}</span>
             </motion.div>
         </div>
     );

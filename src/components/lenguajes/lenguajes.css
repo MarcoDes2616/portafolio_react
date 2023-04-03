@@ -2,38 +2,36 @@
     width: 100%;
     background: linear-gradient(90deg, transparent, var(--primary), transparent);
     height: 400px;
-    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: end;
 }
 .velocity_scroll{
-    border: 1px solid salmon;
-    width: 100%;
+    /* border: 1px solid salmon; */
+    width: 900px;
     max-width: 1000px;
     padding: 0;
-    margin: 0;
+    margin-right: -530px;
 }
 .parallax{
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 0;
     margin: 0;
 }
 .scroller{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: end;
+    width: 100%;
 }
 .scroller span{
-    border: 1px solid peru;
-    /* width: 420px; */
+    display: flex;
+    align-items: center;
 }
 .scroller img{
-    /* max-width: 70px; */
-    max-height: 70px;
-    min-height: 70px;
-    margin: 0 1rem;
+    height: 40px;
+    margin: 0 .5rem;
 }
