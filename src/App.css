@@ -27,6 +27,7 @@ body {
   font-family: 'Fira Sans', sans-serif;
   color: var(--pText);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -88,7 +89,7 @@ nav {
   width: 55px;
   height: 83px;
   border-radius: 30px;
-  background-color: var(--darkPrimaryC);
+  background-color: var(--pText);
   display: flex;
   padding: .8rem;
   flex-direction: column;
@@ -179,15 +180,15 @@ nav {
   width: 110px;
   display: flex;
   justify-content: space-between;
-  color: var(--darkPrimaryC);
   transition: margin-left 1s;
   cursor: pointer;
 }
-.redes .bx{
+.redes a{
   transition: all .5s;
+  color: var(--darkPrimaryC);
   filter: drop-shadow(0 0 2px var(--accentColor));
 }
-.redes:hover .bx{
+.redes:hover a{
   color: var(--accentColor);
   filter: none;
 }
@@ -348,11 +349,19 @@ main h2{
 } */
 
 
-
-
 .icon {
   color: #46c1fa;
 }
+
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100vw;
+  background: var(--darkPrimaryC);
+}
+
 
 
 @media screen and (min-width: 400px) {

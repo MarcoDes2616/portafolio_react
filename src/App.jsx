@@ -57,8 +57,12 @@ const App = () => {
             </div>
             <p className="description"><strong>FullStack Developer | <br /> Management DataBase SQL</strong></p>
             <div className="redes">
-              <i className='bx bxl-linkedin bx-lg'></i>
-              <i className='bx bxl-github bx-lg'></i>
+              <a href="https://www.linkedin.com/in/marco-cardenas-dj/" target="_blank">
+                <i className='bx bxl-linkedin bx-lg'></i>
+              </a>
+              <a href="https://github.com/MarcoDes2616" target="_blank">
+                <i className='bx bxl-github bx-lg'></i>
+              </a>
             </div>
           </div>
           <Cubo />
@@ -89,6 +93,17 @@ const App = () => {
         <Portafolio />
         <Contacto />
       </main>
+      <footer>
+        <div className="redes">
+          <a href="https://www.linkedin.com/in/marco-cardenas-dj/" target="_blank">
+            <i className='bx bxl-linkedin bx-lg'></i>
+          </a>
+          <a href="https://github.com/MarcoDes2616" target="_blank">
+            <i className='bx bxl-github bx-lg'></i>
+          </a>
+        </div>
+        
+      </footer>
     </div>
   );
 }

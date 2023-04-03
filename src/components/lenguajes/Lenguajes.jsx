@@ -60,6 +60,7 @@ const Lenguajes = () => {
                     </VelocityScroll>
                 </section>
             </div>
+            <h3></h3>
         </>
     );
 };
