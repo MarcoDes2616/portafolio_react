@@ -78,8 +78,8 @@ nav {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 8rem;
-  right: calc(50% - 40vw);
+  bottom: 7rem;
+  right: calc(50% - 45vw);
   z-index: 99;
   /* mix-blend-mode: difference; */
 }
