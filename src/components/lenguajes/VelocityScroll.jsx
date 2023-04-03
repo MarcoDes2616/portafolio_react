@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 import { wrap } from "@motionone/utils";
 
-const VelocityScroll = ({baseVelocity = 100, children}) => {
+const VelocityScroll = ({baseVelocity = 100, children, title}) => {
     const baseX = useMotionValue(0);
     const { scrollY } = useScroll();
     const scrollVelocity = useVelocity(scrollY);
@@ -44,6 +44,7 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
 
     return (
         <div className="parallax">
+            {/* <h3>{title}</h3> */}
             <motion.div className="scroller" style={{ x }}>
                 <span>{children}</span>
                 <span>{children}</span>
