@@ -23,16 +23,17 @@ button, a, .btn {
 }
 
 body {
+  width: 100vw;
   font-family: 'Fira Sans', sans-serif;
   color: var(--pText);
 }
 
 .App {
-  width: 100%;
+  width: 100vw;
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
