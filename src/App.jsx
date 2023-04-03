@@ -8,6 +8,7 @@ import { motion, useScroll } from "framer-motion";
 import Lenguajes from "./components/lenguajes/Lenguajes";
 import Cubo from "./components/swiper/Cubo";
 import cv from "./assets/cv_marco_cardenas.pdf"
+import Portafolio from "./components/portafolio/Portafolio";
 
 const App = () => {
   const [menu, setMenu] = useState(false)
@@ -83,6 +84,8 @@ const App = () => {
         <br /><br /><br /><br /><br />
         <h2>Habilidades IT...</h2>
         <Lenguajes />
+        <Portafolio />
+
       </main>
     </div>
   );
