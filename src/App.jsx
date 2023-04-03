@@ -7,6 +7,7 @@ import mia2 from "./assets/img/poster2.jpg"
 import { motion, useScroll } from "framer-motion";
 import Lenguajes from "./components/lenguajes/Lenguajes";
 import Cubo from "./components/swiper/Cubo";
+import cv from "./assets/cv_marco_cardenas.pdf"
 
 const App = () => {
   const [menu, setMenu] = useState(false)
@@ -63,6 +64,13 @@ const App = () => {
         </div>
       </header>
       <main>
+        <a href={cv} download={true}>
+        <div className="float_container btn">
+          <div className="float">
+            <p>my CV</p>
+            <i className='bx bx-cloud-download bx-fade-down bx-lg' ></i>
+          </div>
+        </div></a>
         <h2>Acerca de mi...</h2>
         <div className="about_me">
           <div className="aboutme_img">

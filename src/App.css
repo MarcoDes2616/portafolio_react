@@ -68,7 +68,44 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-
+.float_container{
+  width: 65px;
+  height: 85px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.067);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: calc(50% - 550px);
+  z-index: 99;
+  /* mix-blend-mode: difference; */
+}
+.float{
+  width: 55px;
+  height: 83px;
+  border-radius: 30px;
+  background-color: var(--darkPrimaryC);
+  display: flex;
+  padding: .8rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.float .bx{
+  color: var(--accentColor);
+  margin-top: -25px;
+}
+.float p{
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--primary);
+  text-align: center;
+  position: absolute;
+}
 .wrapper {
   position: absolute;
   width: 100%;

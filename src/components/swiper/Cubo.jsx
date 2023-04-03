@@ -21,7 +21,6 @@ export default function Cubo() {
     return (
         <div className="cubo">
             <h2>Me certifican...</h2>
-            {/* <img src={left} alt="gif" className="left_gif"/> */}
             <Swiper
                 effect={"cube"}
                 grabCursor={true}
