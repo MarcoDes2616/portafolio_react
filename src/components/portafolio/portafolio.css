@@ -71,13 +71,14 @@
     letter-spacing: 2px;
     font-style: italic;
     filter: drop-shadow(1px 1px 0 var(--pText));
-    padding-top: 1rem;
+    padding-top: .8rem;
+    font-size: 1.2rem;
 }
 .card_description{
-    color: var(--pText);
+    color: #121212;
     font-size: .9rem;
     font-weight: 300;
-    padding: 1rem;
+    padding: .8rem;
 }
 .back a{
     text-decoration: none;
@@ -91,6 +92,7 @@
     letter-spacing: 2px;
     font-style: italic;
     filter: drop-shadow(1px 1px 0 var(--pText));
+    font-size: 1.2rem;
 }
 
 .card:hover .front{

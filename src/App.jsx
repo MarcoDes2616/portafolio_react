@@ -9,6 +9,7 @@ import Lenguajes from "./components/lenguajes/Lenguajes";
 import Cubo from "./components/swiper/Cubo";
 import cv from "./assets/cv_marco_cardenas.pdf"
 import Portafolio from "./components/portafolio/Portafolio";
+import Contacto from "./components/contacto/Contacto";
 
 const App = () => {
   const [menu, setMenu] = useState(false)
@@ -86,7 +87,7 @@ const App = () => {
         <h2>Habilidades IT...</h2>
         <Lenguajes />
         <Portafolio />
-
+        <Contacto />
       </main>
     </div>
   );
