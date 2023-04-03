@@ -38,8 +38,10 @@ const App = () => {
       }
       <header>
         <nav>
-          <p>Marco Cardenas</p>
-          <i onClick={() => setMenu(!menu)} className='bx bx-menu bx-md'></i>
+          <div className="nav_in">
+            <p>Marco Cardenas</p>
+            <i onClick={() => setMenu(!menu)} className='bx bx-menu bx-md'></i>
+          </div>
           <div className='wrapper'>
             <motion.div className='progress'
               style={{ scaleX: scrollYProgress }} />
@@ -67,8 +69,8 @@ const App = () => {
             <img src={mia2} alt="" />
           </div>
           <p><i className='bx bxs-quote-left bx-flashing bx-md' >...</i> <br /> Siento pasión por mi crecimiento personal y profesional!. El desempeño de mis labores lo realizo con la mejor disposición de colaboración para lograr así el ambiente deseado y un FeedBack que constribuya fielmente a esa pasión. Poseo conocimientos y habilidades en lenguajes y tecnologías vanguardistas en el ambito del Desarrollo Web FullStack, las cuales estaré a gusto de aportar junto a mis habilidades blandas, para lograr los objetivos corporativos, del equipo, y los personales... <br /><br />
-          <hr />
-          <strong>¡estoy listo para ser parte de tu empresa!...</strong></p>
+            <hr />
+            <strong>¡estoy listo para ser parte de tu empresa!...</strong></p>
         </div>
         <br /><br /><br /><br /><br />
         <h2>Habilidades IT...</h2>
