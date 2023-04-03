@@ -361,6 +361,9 @@ main h2{
   .about_me{
     transition: all .5s;
   }
+  .float_container{
+    bottom: 3rem;
+  }
 }
 
 
