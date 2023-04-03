@@ -12,5 +12,54 @@
         "participacion": "Absoluta",
         "url": "https://dlirios-insumos.netlify.app/",
         "imagen": "/images/dlirios.png"
+    },
+    {
+        "titulo": "Timer Online",
+        "descripcion": "Proyecto Real. Desarrollo con JS y Html, con funcionalidades de cronometro, adición y sustracción de minutos, stop, start y reset.",
+        "participacion": "Colaboración",
+        "url": "https://friendly-hamster-4dc5ed.netlify.app/",
+        "imagen": "/images/timer.png"
+    },
+    {
+        "titulo": "MarketPlace",
+        "descripcion": "Proyecto Académico. BackEnd desarrollado con Node y Express, Postgres, sequelize como ORM, carga de archivos con multer, encriptado de contraseñas, generación de tokens, email´s",
+        "participacion": "Absoluta",
+        "url": "https://documenter.getpostman.com/view/25698929/2s93RQTZy9",
+        "imagen": "/images/marketplace.png"
+    },
+    {
+        "titulo": "Pokedex",
+        "descripcion": "Proyecto Académico. Desarrollo con React.js, consumo de API Rest, paginación, configuración de paginación, sugerencias, animaciones. Redux, react router.",
+        "participacion": "Absoluta",
+        "url": "https://pokedex-marco-cardenas.netlify.app/",
+        "imagen": "/images/pokedex.png"
+    },
+    {
+        "titulo": "E-Commerce",
+        "descripcion": "Proyecto Académico. Desarrollo con React.js, consumo de API Rest, paginación, estilado con Boostrap. Empleo de redux y react router.",
+        "participacion": "Absoluta",
+        "url": "https://e-comerce-marco.netlify.app/",
+        "imagen": "/images/ecomerce.png"
+    },
+    {
+        "titulo": "CRUD de Usuarios",
+        "descripcion": "Proyecto Académico. Desarrollo con React.js, consumo de API Rest, creacion, actualización, obtención y elminicación de usuarios.",
+        "participacion": "Absoluta",
+        "url": "https://crud-users-bymarcocardenas.netlify.app/",
+        "imagen": "/images/crud.png"
+    },
+    {
+        "titulo": "Smart Weather",
+        "descripcion": "Proyecto Académico. Desarrollo con React.js, consumo de API Rest, geo-localización, estilado con CSS.",
+        "participacion": "Absoluta",
+        "url": "https://smartweatherapp.netlify.app/",
+        "imagen": "/images/smart.png"
+    },
+    {
+        "titulo": "Rick And Morty App",
+        "descripcion": "Proyecto Académico. Desarrollo con React.js, consumo de API Rest, paginación, empleo de hooks, solicitudes aleatorias a la API.",
+        "participacion": "Absoluta",
+        "url": "https://rickandmorty-app-academlo.netlify.app/",
+        "imagen": "/images/rick.png"
     }
 ]

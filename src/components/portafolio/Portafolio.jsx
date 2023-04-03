@@ -8,7 +8,7 @@ const Portafolio = () => {
             <div className="cards_container">
                 {
                     data.map((page) => (
-                        <div className="card btn">
+                        <div key={page.url} className="card btn">
                             <div className="face front">
                                 <img src={page.imagen} alt="" />
                                 <p>{page.titulo}</p>
@@ -16,7 +16,7 @@ const Portafolio = () => {
                             <div className="face back">
                                 <p>{page.titulo}</p>
                                 <p>{page.descripcion}</p>
-                                <a href={page.url} className="link btn">
+                                <a href={page.url} target="_blank" className="link btn">
                                     ir al sitio
                                 </a>
                             </div>
