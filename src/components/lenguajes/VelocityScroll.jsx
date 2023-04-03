@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 import { wrap } from "@motionone/utils";
 
-const VelocityScroll = ({baseVelocity = 100, children, title}) => {
+const VelocityScroll = ({baseVelocity = 100, children}) => {
     const baseX = useMotionValue(0);
     const { scrollY } = useScroll();
     const scrollVelocity = useVelocity(scrollY);

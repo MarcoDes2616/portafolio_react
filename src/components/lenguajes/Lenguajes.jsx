@@ -21,9 +21,11 @@ import power from "../../assets/img/power.png"
 
 const Lenguajes = () => {
     return (
-        <div className='lenguajes'>
+        <>
+            <h3>Lenguajes FrontEnd</h3>
+            <div className='lenguajes'>
                 <section className="velocity_scroll">
-                    <VelocityScroll baseVelocity={-4} title={"FrontEnd"}>
+                    <VelocityScroll baseVelocity={-4}>
                         <img src={html} alt="" />
                         <img src={css} alt="" />
                         <img src={js} alt="" />
@@ -31,7 +33,12 @@ const Lenguajes = () => {
                         <img src={next} alt="" />
                         <img src={jquery} alt="" />
                     </VelocityScroll>
-                    <VelocityScroll baseVelocity={4} title={"BackEnd"}>
+                </section>
+            </div>
+            <h3>Lenguajes BackEnd</h3>
+            <div className='lenguajes'>
+                <section className="velocity_scroll">
+                    <VelocityScroll baseVelocity={4}>
                         <img src={node} alt="" />
                         <img src={java} alt="" />
                         <img src={postgres} alt="" />
@@ -39,7 +46,12 @@ const Lenguajes = () => {
                         <img src={mongo} alt="" />
                         <img src={firebase} alt="" />
                     </VelocityScroll>
-                    <VelocityScroll baseVelocity={-4} title={"Framework y Otras Tecnologías"}>
+                </section>
+            </div>
+            <h3>FrameWork y Otras Tecnologías</h3>
+            <div className='lenguajes'>
+                <section className="velocity_scroll">
+                    <VelocityScroll baseVelocity={-4}>
                         <img src={express} alt="" />
                         <img src={spring} alt="" />
                         <img src={git} alt="" />
@@ -47,7 +59,8 @@ const Lenguajes = () => {
                         <img src={power} alt="" />
                     </VelocityScroll>
                 </section>
-        </div>
+            </div>
+        </>
     );
 };
 

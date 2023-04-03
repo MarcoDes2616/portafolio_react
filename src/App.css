@@ -222,7 +222,7 @@ main h2{
 
 .aboutme_img{
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   height: 55vw;
   max-height: 350px;
   display: flex;
@@ -345,9 +345,11 @@ main h2{
   }
   .aboutme_img{
     align-self: flex-start;
+    width: 45%;
   }
   .about_me p{
     align-self: flex-end;
+    width: 45%;
   }
   .contain_present_about{
     padding: 2rem 0 3rem 0;
