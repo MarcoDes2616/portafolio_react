@@ -25,7 +25,7 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
     // BACKEND: NODE-EXPRESS-JAVA-SPRING-POSTGRES-MYSQL-MONGODB-FIREBASE
     // TECNOLOGÍAS: GIT-GITHUB-POWER BI-
   
-    const x = useTransform(baseX, (v) => `${wrap(-20, 50, v)}%`);
+    const x = useTransform(baseX, (v) => `${wrap(-40, 0, v)}%`);
 
     const directionFactor = useRef(1);
     useAnimationFrame((t, delta) => {
@@ -44,7 +44,6 @@ const VelocityScroll = ({baseVelocity = 100, children}) => {
 
     return (
         <div className="parallax">
-            {/* <h3>{title}</h3> */}
             <motion.div className="scroller" style={{ x }}>
                 <span>{children}</span>
                 <span>{children}</span>

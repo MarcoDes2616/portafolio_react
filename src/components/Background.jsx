@@ -49,7 +49,7 @@ const Background = () => {
                                 }
                             },
                             random: false,
-                            speed: 3,
+                            speed: 2,
                             straight: false,
                             trail: {
                                 fillColor: "#455A64",
