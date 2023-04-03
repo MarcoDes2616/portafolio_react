@@ -14,8 +14,10 @@ const Portafolio = () => {
                                 <p>{page.titulo}</p>
                             </div>
                             <div className="face back">
-                                <p>{page.titulo}</p>
-                                <p>{page.descripcion}</p>
+                                <div>
+                                    <p className="cart_title">{page.titulo}</p>
+                                    <p className="card_description">{page.descripcion}</p>
+                                </div>
                                 <a href={page.url} target="_blank" className="link btn">
                                     ir al sitio
                                 </a>
