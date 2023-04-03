@@ -108,7 +108,18 @@ const App = () => {
             <i className='bx bxl-gmail bx-lg'></i>
           </a>
         </div>
-
+        <br /><br />
+        <p>Hecho con ❤ por Marco Cardenas</p>
+        <div className="referencias">
+          <a href="https://github.com/MarcoDes2616/portafolio_react.git" target="_blank" rel="noopener noreferrer">Repositorio para este portafolio</a>
+          <p>Librerias:</p>
+          <a href="https://www.npmjs.com/package/axios" target="_blank" rel="noopener noreferrer">Axios</a>
+          <a href="https://www.npmjs.com/package/framer-motion" target="_blank" rel="noopener noreferrer">FramerMotion</a>
+          <a href="https://www.npmjs.com/package/react-hook-form" target="_blank" rel="noopener noreferrer">react-hook-form</a>
+          <a href="https://www.npmjs.com/package/react-tsparticles" target="_blank" rel="noopener noreferrer">react-tsparticles</a>
+          <a href="https://www.npmjs.com/package/react-tsparticles" target="_blank" rel="noopener noreferrer">tsparticles-path-polygon</a>
+          <a href="https://www.npmjs.com/package/swiper" target="_blank" rel="noopener noreferrer">swiper</a>
+        </div>
       </footer>
     </div>
   );

@@ -358,9 +358,24 @@ footer{
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   width: 100vw;
   background: var(--darkPrimaryC);
+}
+.referencias{
+  background: var(--pText);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: .8rem;
+  gap: 1rem;
+  width: 100%;
+  padding: .5rem;
+  margin-top: 1rem;
+  justify-content: center;
+  color: var(--ligthPrimaryC);
+}
+.referencias a{
+  color: var(--ligthPrimaryC);
 }
 
 
