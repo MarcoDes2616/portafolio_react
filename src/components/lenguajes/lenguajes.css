@@ -29,4 +29,11 @@
 }
 .scroller span{
     border: 1px solid peru;
+    /* width: 420px; */
+}
+.scroller img{
+    /* max-width: 70px; */
+    max-height: 70px;
+    min-height: 70px;
+    margin: 0 1rem;
 }
