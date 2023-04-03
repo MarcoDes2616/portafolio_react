@@ -1,7 +1,7 @@
 [
     {
         "titulo": "BVS Advising",
-        "descripcion": "Proyecto Real. Desarrollado en React.js como FrontEnd y Firebase como BackEnd. Contempla 5 secciones de negocios entre los cuales destaca la creación de una plataforma de Curso Online (pagado), pasarela de pago, rutas protegidas, inicio de sesión (google), progreso. Adicionalmente maneja formulario de contacto, generación de e-mail´s.",
+        "descripcion": "Proyecto Real. Desarrollado en React.js y Firebase. Contempla 5 secciones de negocios, destaca la creación de una plataforma de Curso Online, pasarela de pago, inicio de sesión (google), progreso. Adicionalmente maneja formulario de contacto, generación de e-mail´s.",
         "participacion": "Absoluta",
         "url": "www.bvsadvising.com",
         "imagen": "/images/bvs.png"

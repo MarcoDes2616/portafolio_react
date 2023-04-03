@@ -55,7 +55,6 @@
 
 .back{
     transform: perspective(600px) rotateY(180deg);
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +62,7 @@
     box-shadow: 0 5px 10px black;
 }
 .back div{
-    background-color: var(--darkPrimaryC);
+    background-color: var(--ligthPrimaryC);
     width: 100%;
     height: calc(100% - 2rem);
 }
@@ -75,9 +74,9 @@
     padding-top: 1rem;
 }
 .card_description{
-    color: var(--text);
-    font-size: .8rem;
-    font-weight: 200;
+    color: var(--pText);
+    font-size: .9rem;
+    font-weight: 300;
     padding: 1rem;
 }
 .back a{

@@ -66,12 +66,13 @@ const App = () => {
       </header>
       <main>
         <a href={cv} download={true}>
-        <div className="float_container btn">
-          <div className="float">
-            <p>my CV</p>
-            <i className='bx bx-cloud-download bx-fade-down bx-lg' ></i>
+          <div className="float_container btn">
+            <div className="float">
+              <p>my CV</p>
+              <i className='bx bx-cloud-download bx-fade-down bx-lg' ></i>
+            </div>
           </div>
-        </div></a>
+        </a>
         <h2>Acerca de mi...</h2>
         <div className="about_me">
           <div className="aboutme_img">
