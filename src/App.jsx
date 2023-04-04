@@ -36,14 +36,12 @@ const App = () => {
   return (
     <div className="App">
       <Background />
-      {isOpen &&
-        <Menu setIsOpen={setIsOpen} />
-      }
+        <Menu setIsOpen={setIsOpen} isOpen={isOpen}/>
       <header>
         <nav>
           <div className="nav_in">
             <p>Marco Cardenas</p>
-            <i onClick={() => setMenu(!isOpen)} className='bx bx-menu bx-md'></i>
+            <i onClick={() => setIsOpen(!isOpen)} className='bx bx-menu bx-md'></i>
           </div>
           <div className='wrapper'>
             <motion.div className='progress'
@@ -78,7 +76,7 @@ const App = () => {
             </div>
           </div>
         </a>
-        <h2>Acerca de mi...</h2>
+        <h2 id="aboutme">Acerca de mi...</h2>
         <div className="about_me">
           <div className="aboutme_img">
             <img src={mia2} alt="" />
@@ -88,7 +86,7 @@ const App = () => {
             <strong>¡estoy listo para ser parte de tu empresa!...</strong></p>
         </div>
         <br /><br /><br /><br /><br />
-        <h2>Habilidades IT...</h2>
+        <h2 id="skills">Habilidades IT...</h2>
         <Lenguajes />
         <Portafolio />
         <Contacto />

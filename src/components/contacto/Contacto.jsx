@@ -9,7 +9,6 @@ const Contacto = () => {
     const inputNull = { name: "", phone: "", email: "", company: "" };
 
     const sendEmail = data => {
-        console.log("voy a setear");
         setActive(true)
         axios.defaults.headers.post['Content-Type'] = 'application/json';
         axios.post('https://formsubmit.co/ajax/marco2616@gmail.com', {
@@ -22,11 +21,9 @@ const Contacto = () => {
             })
             .catch(error => console.error(error))
     }
-
-    console.log(active);
     return (
         <div className="contacto">
-            <h2>Contacto</h2>
+            <h2 id="contact">Contacto</h2>
             <div className="formulario">
                 <p>Estaré a gusto de responder a tu contacto a la brevedad posible!</p>
                 <form onSubmit={handleSubmit(sendEmail)}
