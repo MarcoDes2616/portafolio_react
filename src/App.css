@@ -373,7 +373,7 @@ main h2{
 }
 .child_menu{
   width: calc(100vw - 20px);
-  height: calc(100% - 60px);
+  height: calc(100% - 40px);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -391,6 +391,9 @@ main h2{
 .child_menu.hide{
   left: 150vw;
 }
+.child_menu a{
+  text-decoration: none;
+}
 .access{
   border: 2px solid #fcf4a4;
   filter: drop-shadow(0 0 5px var(--accentColor));
@@ -400,7 +403,7 @@ main h2{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: #212121;
   color: var(--ligthPrimaryC);
   font-size: 1.1rem;
