@@ -369,7 +369,7 @@ main h2{
   height: calc(100% - 4rem);
   background: rgba(255, 255, 255, .05);
   backdrop-filter: blur(5px);
-  transition: .5s;
+  transition: .4s;
 }
 .menu_slider.hide{
   left: 100vw;
@@ -388,7 +388,7 @@ main h2{
   background-size: cover;
   position: relative;
   left: -4px;
-  transition: left .8s ease-in-out;
+  transition: left .6s ease-in-out;
   font-size: 1.7rem;
 }
 .child_menu.hide{
