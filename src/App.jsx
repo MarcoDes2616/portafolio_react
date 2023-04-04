@@ -42,10 +42,10 @@ const App = () => {
           <div className="nav_in">
             <p className="btn" onClick={() => scrollTo(0, 0)} >Marco Cardenas</p>
             <div className="menu">
-              <a class="link_m" href="#aboutme">I am...</a>
-              <a class="link_m" href="#skills">My Skills</a>
-              <a class="link_m" href="#portafolio">Briefcase</a>
-              <a class="link_m" href="#contact">Contact</a>
+              <a class="link_m" href="#aboutme">Acerca de mi</a>
+              <a class="link_m" href="#skills">Habilidades</a>
+              <a class="link_m" href="#portafolio">Portafolio</a>
+              <a class="link_m" href="#contact">Contacto</a>
             </div>
             <i onClick={() => setIsOpen(!isOpen)} className='bx bx-menu bx-md'></i>
           </div>
