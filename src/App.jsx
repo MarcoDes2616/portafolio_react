@@ -40,7 +40,7 @@ const App = () => {
       <header>
         <nav>
           <div className="nav_in">
-            <p className="btn">Marco Cardenas</p>
+            <p className="btn" onClick={() => scrollTo(0, 0)} >Marco Cardenas</p>
             <div className="menu">
               <a class="link_m" href="#aboutme">I am...</a>
               <a class="link_m" href="#skills">My Skills</a>
