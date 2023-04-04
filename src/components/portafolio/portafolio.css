@@ -25,6 +25,7 @@
     height: 210px;
     background: rgba(255, 255, 255, 0.089);
     backdrop-filter: blur(3px);
+    overflow: hidden;
 }
 .face{
     position: absolute;

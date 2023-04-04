@@ -4,7 +4,7 @@ import data from "../../portafolio.json"
 const Portafolio = () => {
     return (
         <div className="portafolio_container">
-            <h2>Portafolio</h2>
+            <h2 id="portafolio">Portafolio</h2>
             <div className="cards_container">
                 {
                     data.map((page) => (

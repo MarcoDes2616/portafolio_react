@@ -36,11 +36,17 @@ const App = () => {
   return (
     <div className="App">
       <Background />
-        <Menu setIsOpen={setIsOpen} isOpen={isOpen}/>
+      <Menu setIsOpen={setIsOpen} isOpen={isOpen} />
       <header>
         <nav>
           <div className="nav_in">
-            <p>Marco Cardenas</p>
+            <p className="btn">Marco Cardenas</p>
+            <div className="menu">
+              <a class="link_m" href="#aboutme">I am...</a>
+              <a class="link_m" href="#skills">My Skills</a>
+              <a class="link_m" href="#portafolio">Briefcase</a>
+              <a class="link_m" href="#contact">Contact</a>
+            </div>
             <i onClick={() => setIsOpen(!isOpen)} className='bx bx-menu bx-md'></i>
           </div>
           <div className='wrapper'>

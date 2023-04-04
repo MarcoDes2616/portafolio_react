@@ -16,6 +16,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 button, a, .btn {
@@ -353,7 +354,9 @@ main h2{
 /* .icon {
   color: #46c1fa;
 } */
-
+.menu{
+  display: none;
+}
 .menu_slider{
   position: fixed;
   bottom: 0;
@@ -374,18 +377,18 @@ main h2{
 .child_menu{
   width: calc(100vw - 20px);
   height: calc(100% - 40px);
-  padding: 2rem;
+  padding: 2rem 1rem;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
   border-radius: 25px;
   background: url(./assets/img/fondo1.png), var(--pText);
   background-size: cover;
   position: relative;
   left: -4px;
-  transition: left 1s ease-in-out;
+  transition: left .8s ease-in-out;
   font-size: 1.7rem;
 }
 .child_menu.hide{
@@ -397,8 +400,8 @@ main h2{
 .access{
   border: 2px solid #fcf4a4;
   filter: drop-shadow(0 0 5px var(--accentColor));
-  width: 135px;
-  height: 135px;
+  width: 120px;
+  height: 120px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -466,6 +469,34 @@ footer{
   .nav_in .bx{
     display: none;
   }
+  .menu{
+    display: flex;
+    gap: 1rem;
+  }
+  .menu a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--ligthPrimaryC);
+    text-align: left;
+    margin: 0 25px;
+    font-weight: 500;
+    --clippy: polygon(0% 0, 0 0, 0 100%, 0% 100%);
+}
+.menu a::after{
+    content: "";
+    display: block;
+    background-color: var(--ligthPrimaryC);
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 3px auto 0 auto;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .3s;
+    }
+.menu a:hover{
+    color: #FFEB3B;
+    --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}
   main{
     margin-top: 2rem;
   }
