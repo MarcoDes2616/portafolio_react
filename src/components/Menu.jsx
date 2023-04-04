@@ -1,40 +1,15 @@
 import React from 'react';
 
-const Menu = () => {
+const Menu = ({isOpen, setIsOpen}) => {
+    
     return (
-        <div className='menu'>
-            <div className='wrapper_tOne'>
-                <div className='trapecio t_one'></div>
-            </div>
-            <div className='wrapper_tTwo'>
-                <div className='trapecio t_two'></div>
-            </div>
-            <div className='line'>
-            </div>
-            <div className='access'>
-                <div className='access_item'>
-                    <i className='bx bxs-school bx-md'></i>
-                    <p>Educacion</p>
-                </div>
-                <div className='access_item'>
-                    <i className='bx bx-code-alt bx-md'></i>
-                    <p>Lenguajes</p>
-                </div>
-                <div className='access_item'>
-                    <i className='bx bx-shape-circle bx-md'></i>
-                    <p>Servicios</p>
-                </div>
-                <div className='access_item'>
-                    <i className='bx bx-bulb bx-md'></i>
-                    <p>Proyectos</p>
-                </div>
-                <div className='access_item'>
-                    <i className='bx bx-phone bx-md'></i>
-                    <p>Contacto</p>
-                </div>
+        <div className={isOpen ? "menu_slider" : "menu_slider hide"} id="menu">
+            <div className={isOpen ? "child_menu" : "child_menu hide"}>
+                {/* <img src={logo} alt="logo empresa" />
+                <a href="#">Home</a>
+                <a href="#">Productos</a> */}
             </div>
         </div>
-
     );
 };
 

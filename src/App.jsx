@@ -12,7 +12,7 @@ import Portafolio from "./components/portafolio/Portafolio";
 import Contacto from "./components/contacto/Contacto";
 
 const App = () => {
-  const [menu, setMenu] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   const { scrollYProgress } = useScroll();
   const [index, setIndex] = useState(0)
   const frases = ["Capacidad de Adaptabilidad...", "Adaptability...",
@@ -36,14 +36,14 @@ const App = () => {
   return (
     <div className="App">
       <Background />
-      {menu &&
-        <Menu />
+      {isOpen &&
+        <Menu setIsOpen={setIsOpen} />
       }
       <header>
         <nav>
           <div className="nav_in">
             <p>Marco Cardenas</p>
-            <i onClick={() => setMenu(!menu)} className='bx bx-menu bx-md'></i>
+            <i onClick={() => setMenu(!isOpen)} className='bx bx-menu bx-md'></i>
           </div>
           <div className='wrapper'>
             <motion.div className='progress'

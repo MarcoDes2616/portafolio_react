@@ -353,6 +353,52 @@ main h2{
 .icon {
   color: #46c1fa;
 }
+.menu_slider{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 4rem);
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  transition: left .5s ease-in-out;
+}
+.menu_slider.hide{
+  left: 150vw;
+}
+.child_menu{
+  width: calc(100% - 18px);
+  height: calc(100% - 18px);
+  opacity: .9;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 15px;
+  background: url(./assets/img/fondo.png), var(--pText);
+  position: relative;
+  left: 0;
+  transition: left 1.2s ease-in-out;
+  font-size: 1.7rem;
+}
+.child_menu.hide{
+  left: 150vw;
+}
+.child_menu img{
+  width: 70%;
+  max-width: 320px;
+  display: block;
+  filter: drop-shadow(0 0 15px var(--button-color));
+}
+.child_menu a{
+  color: var(--first-color);
+  font-style: italic;
+}
+
 
 footer{
   display: flex;
@@ -399,6 +445,9 @@ footer{
 @media screen and (min-width: 900px) {
   .nav_in{
     padding: 0 1rem;
+  }
+  .nav_in .bx{
+    display: none;
   }
   main{
     margin-top: 2rem;
