@@ -263,6 +263,7 @@ main h2{
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   background: linear-gradient(160deg, rgba(255, 255, 255, 0.05) 37%, var(--accentColor) 38%);
+  backdrop-filter: blur(3px);
 }
 
 .aboutme_img{
