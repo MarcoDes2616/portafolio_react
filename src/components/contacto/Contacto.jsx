@@ -13,7 +13,7 @@ const Contacto = () => {
         axios.defaults.headers.post['Content-Type'] = 'application/json';
         axios.post('https://formsubmit.co/ajax/marco2616@gmail.com', {
             name: `Nuevo mensaje de ${data.name}`,
-            message: `${data.name} desea ponerse en contacto contigo, lo puedes contactar este correo ${data.email} o a su numero telefónico ${data.phone}."}`
+            message: `${data.name}, de la empresa ${data.company} desea ponerse en contacto contigo. L@ puedes contactar este correo ${data.email} o a su numero telefónico ${data.phone}.`
         })
             .then(res => {
                 reset(inputNull)
