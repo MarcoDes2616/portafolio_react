@@ -84,7 +84,6 @@ nav {
   bottom: 6rem;
   right: 2rem;
   z-index: 99;
-  /* mix-blend-mode: difference; */
 }
 .float{
   width: 55px;
